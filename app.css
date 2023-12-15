@@ -10,9 +10,9 @@
 
 :root {
   /* Font Size */
-  --fg-primary: 9vh; /* Time and Greetings */
+  --fg-primary: 6vh; /* Time and Greetings */
   --fg-secondary: 3vh; /* Greetings and Weather widger */
-  --fg-date: 8vh; /* Date */
+  --fg-date: 6vh; /* Date */
   --fg-list: 2vh; /* Links List */
   --icon: 3vh; /* Icon Size */
   --searchIcon: 2.5vh; /* Icon Size */
