@@ -124,8 +124,8 @@ const CONFIG = {
           link: "https://github.com/manav-1/backoffice-ui-v2",
         },
         {
-          name: "Widget",
-          link: "https://github.com/manav-1/shopify-widget",
+          name: "Admin",
+          link: "https://admin.anycover.co",
         },
         {
           name: "Repos",
