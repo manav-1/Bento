@@ -106,8 +106,8 @@ const CONFIG = {
           link: "https://github.com/anycover/shopify-widget",
         },
         {
-          name: "Repos",
-          link: "https://github.com/anycover",
+          name: "Website",
+          link: "https://github.com/anycover/website",
         },
       ],
     },
