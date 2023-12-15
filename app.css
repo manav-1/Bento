@@ -6,15 +6,16 @@
 
 /* V A R I A B L E S */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap'); /* Font Import */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"); /* Font Import */
 
 :root {
   /* Font Size */
-  --fg-primary: 12vh; /* Time and Greetings */
+  --fg-primary: 9vh; /* Time and Greetings */
   --fg-secondary: 3vh; /* Greetings and Weather widger */
   --fg-date: 8vh; /* Date */
   --fg-list: 2vh; /* Links List */
   --icon: 3vh; /* Icon Size */
+  --btnText: 1.2vh; /* Button Text Size */
 
   /* Fonts Color */
   --fg: #3a3a3a; /* Foreground color */
@@ -56,7 +57,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Monolisa", sans-serif;
   transition: 0.2s ease-in-out;
 }
 
@@ -156,8 +157,10 @@ body {
 }
 
 #hour,
-#separator,
-#minutes {
+#separator1,
+#separator2,
+#minutes,
+#seconds {
   font-size: var(--fg-primary);
   font-weight: bolder;
   color: var(--fg);
@@ -236,14 +239,22 @@ body {
 
 .button {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
+  text-decoration: none;
 }
 
 .buttonIcon {
   width: var(--icon);
   height: var(--icon);
+  color: var(--fg);
+}
+
+.buttonText {
+  margin-top: 10px;
+  font-size: var(--btnText);
   color: var(--fg);
 }
 
